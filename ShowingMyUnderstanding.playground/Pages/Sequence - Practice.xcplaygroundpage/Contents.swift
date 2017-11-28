@@ -38,6 +38,21 @@ canvas.drawShapesWithBorders = false
 canvas.defaultLineWidth = 5
 
 // Add your code below... remember to use comments to indicate your intent
+canvas.defaultLineWidth = 10
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
+//green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawEllipse(centreX: 75, centreY: 170, width: 100, height: 100)
+
+//yellow
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawEllipse(centreX: 125, centreY: 170, width: 100, height: 100)
+//red
+canvas.fillColor = Color(hue: 0, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawEllipse(centreX: 175, centreY: 170, width: 100, height: 100)
+//blue
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 80)
+canvas.drawEllipse(centreX: 225, centreY: 170, width: 100, height: 100)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
